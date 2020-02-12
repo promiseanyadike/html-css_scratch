@@ -1,0 +1,120 @@
+<!-- ..............HTML AND CSS WEBPAGE FROM SCRATCH VIA FLEXBOX........................ -->
+
+
+
+
+<body>
+  <div class="header">
+    <img src="http://wmusis.ml/moodle/pluginfile.php/1/theme_academi/logo/1550654281/wmulogo.png" alt="" class="header__img" >
+    <div class="header__desc">
+      Our Innovative Platform solution offers drivers a suite of proactive offerings. Immersive user experiences reliably enable senior stand-ups for our industry leaders. Our Value-Added Agile Workflow solution offers deliverables a suite of best-of-breed offerings. Competitive milestones are becoming best-in-class standard setter experts.       
+    </div>
+  </div>
+  
+  
+  <section class="about">
+    <h2 class="about__title">
+      Innovative Platform solution
+    </h2>
+    <div class="about__desc">
+Key players will take ownership of their enterprises by strategically strategizing mobile core assets. We use our unparalleled low hanging fruit to globally manage our dot-bomb expectations. Iteratively connecting conservatively world-class siloes is crucial to our end-to-end big data. Key players will take ownership of their step-changes by ethically relaying next-generation market foci.      
+    </div>
+  </section>
+  
+
+  <section class="about">
+    <h2 class="about__title">
+      Somethhing Else
+    </h2>
+    <div class="about__desc">
+Key players will take ownership of their enterprises by strategically strategizing mobile core assets. We use our unparalleled low hanging fruit to globally manage our dot-bomb expectations. Iteratively connecting conservatively world-class siloes is crucial to our end-to-end big data. Key players will take ownership of their step-changes by ethically relaying next-generation market foci.      
+    </div>
+  </section>
+  
+  <section class="table">
+    <h2 class="table__title"></h2>
+    <table class="table__data">
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Name</th>
+          <th>Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Yam head slim</td>
+          <td>1st</td>
+        </tr>
+        
+        <tr>
+          <td>2</td>
+          <td>Sade the babe</td>
+          <td>2nd</td>
+        </tr>
+        
+        <tr>
+          <td>3</td>
+          <td>Yam head Henry</td>
+          <td>3rd</td>
+        </tr>        
+      </tbody>
+    </table>
+  </section>
+</body>
+
+
+
+<!-- .......................css............................... -->
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.header .header__img {
+  height:100%;
+  width: 40%;
+  
+}
+
+.header .header__desc {
+  padding: 5px 10px;
+  overflow-y: hidden;
+}
+
+.about {
+  margin-top: 15px;
+}
+
+.about .about__title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.about .about__desc {
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.table {
+  margin-top:20px;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.table .table__title {
+  text-align: center;
+  margin-bottom: 0;  
+}
+
+.table .table__data {
+  width: 100%
+}
+
+.table th {
+  font-weight: bold;
+}
